@@ -30,6 +30,6 @@ namespace GranShopAPI.Models
         public decimal ValorVenda { get; set; }
 
         [Required]
-        public Boolean Destaque { get; set; }
+        public bool Destaque { get; set; }
     }
 }
